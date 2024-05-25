@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  my-app:
+    build: .
+    container_name: Admission
+    ports:
+      - 3000:3000
